@@ -1,4 +1,4 @@
-<h3>DemoHttpCache</h3>
+#<h3>DemoHttpCache</h3>
 
 Service $http có thể tạo một cache với ID là $http với thao tác khá đơn giản là set "cache: true" khi thực hiện requets thông qua $http.
 ```
@@ -17,7 +17,7 @@ Giá trị trong $http cache được lưu theo dạng:
 `Key` là url trong request của $http
 `Value` là content của response trả về.
 
-Ví dụ
+### Ví dụ
 
 + Tôi tạo 1 controller để load danh sách users
 
